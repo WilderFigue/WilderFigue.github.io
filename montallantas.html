@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta De Automóviles</title>
+    <style>
+         ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #23abe0;
+        }
+        ul li {
+            display: inline-block;
+            position: relative;
+        }
+        ul li a {
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #23abe0;
+        }
+        ul li:hover ul{
+            display: block;
+        }
+        ul li ul li {
+            display: block;
+        }
+        ul li ul li a:hover {
+            background-color: aquamarine;
+        }
+        .encabezado {
+            background-color: rgb(126, 218, 247);
+            color: rgb(17, 17, 94);
+            text-align: center;
+            padding: 30px;
+            font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .menú {
+            background-color: rgb(126, 218, 247);
+            color: rgb(17, 17, 94);
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+            width: 250px;
+            float: left;
+            height: 100vh;
+        }
+        .menú a {
+            display: block;
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .contenido {
+            background-color: rgb(43, 201, 91);
+            padding: 20px;
+            margin-left: 220px;
+            height: 100vh;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center ;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="encabezado">
+        RENTA DE AUTOMÓVILES
+    </div>
+    <div class="menú">
+        <h2>MENÚ</h2>
+        <a href="index.html">Página Principal</a>
+        <a href="galería.html">Automóviles</a>
+        <a href="contacto.html">Contacto</a>
+        <div>
+            <ul>
+             <li>
+                 <h3>SERVICIOS<h3>
+                 <ul>
+                     <li>
+                         <a href="mantenimiento.html">Mantenimiento</a>
+                         <a href="montallantas.html">Montallantas</a>
+                         <a href="alineación.html">Alineación</a>
+                         <a href="balanceo.html">Balanceo</a>
+                     </li>
+                 </ul>
+             </li>
+            </ul>
+         </div>
+    </div>
+    <div class="contenido">
+        <h2>MONTALLANTAS</h2>
+        <p style="text-align: justify; padding: 10px; font-size: 25px;">Los montallantas de coches y motos se fabrican en distintos materiales, como el hierro, el acero o el aluminio. En el caso de las motocicletas, un montallantas es una herramienta esencial para desmontar y montar llantas de manera eficiente y segura.</p>
+        <img src="Archivos/montallantas.png" alt="500px" height="240px">
+    </div>
+    
+</body>
+</html>

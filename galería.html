@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Autos A La Renta</title>
+<style type="text/css">
+     body {
+	background-color: #00FF99;
+	background-image: url(Archivos%20de%20la%20pagina%20web/fondo.jpeg);
+}
+#galeria1 {
+    border: 1px solid #1E13AB;
+}
+#galeria1 {
+    margin: auto;
+    height: 100px;
+    width: 600px;
+}
+#contenedor {
+    height: 400px;
+    width: 600px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    border: 1px solid #1E13AB;
+   background-color: aquamarine;
+}
+#carro1 {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid #1E13AB;
+}
+#carro2 {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    visibility: hidden;
+    border: 1px solid #1e13ab;
+}
+#carro3 {
+    height: 400px;
+    width: 600px;
+    border: 1px solid #1e12ab;
+    position: absolute;
+    visibility: hidden;
+}
+#carro4 {
+    height: 400px;
+    width: 600px;
+    border: 1px solid #1e13ab;
+    position: absolute;
+    visibility: hidden;
+}
+#carro5 {
+    height: 400px;
+    width: 600px;
+    border: 1px solid #1e13ab;
+    position: absolute;
+    visibility: hidden;
+}
+.link {
+    display: block;
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 24px;
+
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body>
+    <h1 style=" color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"">Autos Disponibles</h1>
+    <a href="index.html" class="link">Página Principal</a>
+<div id="galeria1">
+  <img src="Archivos/aventador.png" alt="" width="120" height="100" onMouseOut="MM_showHideLayers('carro1','','hide')" onMouseOver="MM_showHideLayers('carro1','','show')"/><img src="Archivos/t800.png" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('carro2','','show')" onMouseOut="MM_showHideLayers('carro2','','hide')"/><img src="Archivos/nqr.png" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('carro3','','show')" onMouseOut="MM_showHideLayers('carro3','','hide')"/><img src="Archivos/camaro.png" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('carro4','','show')" onMouseOut="MM_showHideLayers('carro4','','hide')"/><img src="Archivos/tractor.png" alt="" width="120" height="100" onMouseOver="MM_showHideLayers('carro5','','show')" onMouseOut="MM_showHideLayers('carro5','','hide')"/></div>
+<div id="contenedor">
+  <div id="carro1"><img src="Archivos/aventador.png" width="600" height="400" alt=""/></div>
+  <div id="carro2"><img src="Archivos/t800.png" width="600" height="400" alt=""/></div>
+  <div id="carro3"><img src="Archivos/nqr.png" width="600" height="400" alt=""/></div>
+  <div id="carro4"><img src="Archivos/camaro.png" width="600" height="400" alt=""/></div>
+  <div id="carro5"><img src="Archivos/tractor.png" width="600" height="400" alt=""/></div>
+	
+	
+	
+	
+	</div>
+	
+	
+</body>
+</html>
